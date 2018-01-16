@@ -1,0 +1,4 @@
+composer.phar
+vendor
+package/codecept.phar
+App/Config/codeception-local.php

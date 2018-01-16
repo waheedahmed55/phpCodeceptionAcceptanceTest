@@ -1,0 +1,18 @@
+paths:
+    tests: App/Tests
+    log: App/Tests/_log
+    data: App/Tests/_data
+    helpers: App/Tests/_helpers
+settings:
+    bootstrap: _bootstrap.php
+    suite_class: \PHPUnit_Framework_TestSuite
+    colors: false
+    memory_limit: 1024M
+    log: true
+modules:
+    config:
+        Db:
+            dsn: ''
+            user: ''
+            password: ''
+            dump: App/Tests/_data/dump.sql
