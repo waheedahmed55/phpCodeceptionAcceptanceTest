@@ -1,4 +1,4 @@
-# PHP codeception automation
+![codeception](https://presentations.entwicklungshilfe.nrw/img/codeception/codeception_composer.png)
 
 This project contains the automated tests of the tajawal.ae website
 
@@ -10,5 +10,4 @@ This project contains the automated tests of the tajawal.ae website
 
 ## Running the tests
 
-To run the test cases php codecept.phar run --env chrome --env firefox --html
-this should do the trick
+>   php codecept.phar run --env chrome --env firefox --html
